@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Slf4j
 public class HelloController {
 
-    @GetMapping("/hello")
+
+
+    @GetMapping("/")
     public String hello() {
         log.info("******** hello war controller!!!!");
         return "hello";
